@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+*.log
+
+# Models & temp files
+models/saved/*.pkl
+models/saved/*.joblib
+scratch/
+
+# Database
+database/*.db
+database/*.db-wal
+database/*.db-shm
+*.db
+
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

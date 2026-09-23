@@ -1,0 +1,31 @@
+product_id,product_name,category,price
+PROD-001,Pulse Core - Starter Tier,SaaS Subscriptions,49.0
+PROD-002,Pulse Core - Professional Tier,SaaS Subscriptions,149.0
+PROD-003,Pulse Core - Enterprise Annual,SaaS Subscriptions,1200.0
+PROD-004,Pulse Enterprise Suite,SaaS Subscriptions,4800.0
+PROD-005,Pulse Global Multi-Tenant,SaaS Subscriptions,12500.0
+PROD-006,Revenue Intelligence Module,Add-on Modules,299.0
+PROD-007,Predictive Churn Radar,Add-on Modules,399.0
+PROD-008,AI Lead Scoring Engine,Add-on Modules,350.0
+PROD-009,Automated Playbook Executor,Add-on Modules,250.0
+PROD-010,Custom Pipeline Builder,Add-on Modules,199.0
+PROD-011,Executive Analytics Suite,Add-on Modules,450.0
+PROD-012,Data Enrichment Connector,Add-on Modules,180.0
+PROD-013,Fast-Track Onboarding Package,Professional Services,2500.0
+PROD-014,Enterprise Architecture Review,Professional Services,6000.0
+PROD-015,Custom API Integration Service,Professional Services,4500.0
+PROD-016,Data Migration & Cleanse Sprint,Professional Services,3500.0
+PROD-017,Revenue Ops Consulting (40 hrs),Professional Services,8000.0
+PROD-018,Quarterly Business Review Retainer,Professional Services,5000.0
+PROD-019,Dedicated TAM Support (Monthly),Training & Support,950.0
+PROD-020,24/7 Priority SLA Upgrade,Training & Support,650.0
+PROD-021,Sales Team Certification Bootcamp,Training & Support,1800.0
+PROD-022,Admin Masterclass Workshop,Training & Support,1200.0
+PROD-023,Continuous Learning Portal Access,Training & Support,300.0
+PROD-024,Pulse On-Premise Gateway Server,Hardware & Infrastructure,7500.0
+PROD-025,Edge Telemetry Collector Box,Hardware & Infrastructure,2200.0
+PROD-026,High-Security HSM Key Module,Hardware & Infrastructure,3400.0
+PROD-027,Rackmount Analytics Accelerator,Hardware & Infrastructure,9800.0
+PROD-028,Redundant Power Backup Unit,Hardware & Infrastructure,1100.0
+PROD-029,Pulse Kiosk Field Terminal,Hardware & Infrastructure,1600.0
+PROD-030,Secure Enclave Hardware Vault,Hardware & Infrastructure,11500.0
