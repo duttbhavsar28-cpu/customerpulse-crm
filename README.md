@@ -20,12 +20,8 @@
 - [Database Schema & Architecture](#-database-schema--architecture)
 - [Technology Stack](#-technology-stack)
 - [Folder Structure](#-folder-structure)
-- [Installation & Quickstart](#-installation--quickstart)
 - [How to Run](#-how-to-run)
-- [Automated Verification Tests](#-automated-verification-tests)
-- [Screenshots & UI Walkthrough](#-screenshots--ui-walkthrough)
 - [Business Impact & ROI](#-business-impact--roi)
-- [Resume Bullet Points](#-resume-bullet-points)
 - [Future Roadmap](#-future-roadmap)
 - [License & Author](#-license--author)
 
@@ -326,33 +322,6 @@ customerpulse-crm/
 
 ---
 
-## 🚀 Installation & Quickstart
-
-### 1. Clone or Navigate to the Repository
-```bash
-cd customerpulse-crm
-```
-
-### 2. Set Up a Virtual Environment (Recommended)
-**Windows (PowerShell):**
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
-
-**macOS / Linux:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## 🏃 How to Run
 
 ### Step 1: Launch the Streamlit Dashboard
@@ -375,64 +344,12 @@ python -c "from models.pipeline import run_full_ml_pipeline; run_full_ml_pipelin
 
 ---
 
-## 🧪 Automated Verification Tests
-
-The repository includes a comprehensive automated test suite verifying SQLite integrity, CRUD operations, machine learning inference, and health calculations.
-
-Run the tests with:
-```bash
-python tests/test_crm_system.py
-```
-
-Expected output:
-```
-..........
-----------------------------------------------------------------------
-Ran 10 tests in 2.575s
-
-OK
-```
-
----
-
-## 📸 Screenshots & UI Walkthrough
-
-### 1. Executive Dashboard
-*High-level business health cards, monthly revenue trajectory, churn risk distribution, and top 10 accounts leaderboard.*
-*(Placeholder: `docs/screenshots/dashboard.png`)*
-
-### 2. Customer 360° Profile
-*Detailed demographic summary, customer health score badge, churn risk, full transaction history, interaction timeline, and complementary cross-sell recommendations.*
-*(Placeholder: `docs/screenshots/customer_profile.png`)*
-
-### 3. AI Lead Scoring Leaderboard
-*Inbound leads ranked 0–100 by conversion likelihood with priority tier badges and 1-click customer conversion.*
-*(Placeholder: `docs/screenshots/leads.png`)*
-
-### 4. Interactive What-If Risk Simulator
-*Real-time parameter sliders allowing sales and CS reps to observe immediate changes in churn probability and health scores.*
-*(Placeholder: `docs/screenshots/simulator.png`)*
-
----
-
 ## 📊 Business Impact & ROI
 
 - **Early Churn Intervention:** Detecting at-risk accounts 60–90 days prior to contract renewal protects up to **22% of revenue-at-risk**.
 - **Sales Velocity Acceleration:** Sorting inbounds by conversion probability increases sales rep closing rates by **30–40%** by eliminating wasted outreach on low-intent leads.
 - **Optimized Customer Expansion:** Recommending complementary products based on category affinity expands Average Order Value (AOV) by **15–25%**.
 - **Objective Account Health:** Eliminates subjective account evaluations in favor of a quantitative 0–100 Customer Health Score based on order frequency, recency, and support tickets.
-
----
-
-## 💼 Resume Bullet Points
-
-Feel free to adapt these bullet points for your resume or LinkedIn profile:
-
-- **Built CustomerPulse CRM**, an enterprise-grade, Python-only Customer Revenue Intelligence platform leveraging **Streamlit, SQLite, and Scikit-learn** to manage 5,000+ accounts and 28,000+ transactions.
-- **Engineered 4 local ML models**, including a Random Forest Churn Classifier (**98.8% accuracy, 95.9% F1**), Gradient Boosting Lead Scorer (**0.90 ROC-AUC**), and K-Means Behavioral Clustering engine.
-- **Formulated a transparent 0–100 Customer Health Score** and predictive Customer Lifetime Value (CLV) model to quantify churn vulnerability and calculate portfolio revenue-at-risk.
-- **Implemented a Prescriptive Next-Best-Action engine** combining machine-learning risk outputs with rule-based playbooks to guide high-priority retention and cross-sell campaigns.
-- **Designed a modern, responsive Streamlit user interface** featuring 9 modular views, interactive Plotly visualizations, customer 360° profiles, and a real-time what-if risk simulator.
 
 ---
 
